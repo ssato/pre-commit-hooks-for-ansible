@@ -12,7 +12,9 @@ class FunctionsTestCase(C.BaseTestCase):
     """
 
     def test_list_res_files(self):
-        self.assertTrue(C.list_res_files('check_new_lines', '*ok*'))
+        self.assertTrue(
+            C.list_res_files('check_utf8_with_unix_style_new_lines', '*ok*')
+        )
         with self.assertRaises(RuntimeError):
             C.list_res_files('dir_not_exist', '*ng*')
 
