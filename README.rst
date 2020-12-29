@@ -1,10 +1,6 @@
 pre-commit-hooks-for-ansible
 ==============================
 
-.. image:: https://img.shields.io/travis/ssato/pre-commit-hooks-for-ansible.png
-   :target: https://travis-ci.org/ssato/pre-commit-hooks-for-ansible
-   :alt: [Travis-CI Status]
-
 .. image:: https://github.com/ssato/pre-commit-hooks-for-ansible/workflows/Tests/badge.svg?branch=main
    :target: https://github.com/ssato/pre-commit-hooks-for-ansible/actions?query=workflow%3ATests
    :alt: [GitHub Actions Status]
