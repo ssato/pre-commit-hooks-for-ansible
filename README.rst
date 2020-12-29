@@ -3,4 +3,4 @@ About
 
 pre-commit hook scripts for ansible.
 
-.. seealso:: https://pre-commit.com/
+- seealso: https://pre-commit.com/
