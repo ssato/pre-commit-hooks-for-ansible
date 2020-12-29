@@ -1,0 +1,8 @@
+# yamllint disable rule:line-length
+#
+- id: check-utf8-with-unix-style-new-lines
+  name: Check if files are encoded in UTF-8 w/o BOM and has Unix style new lines
+  description: Prevent wrong encoding files and/or files have non-Unix style new lines from being committed
+  entry: check-utf8-with-unix-style-new-lines
+  language: python
+  types: [text]
