@@ -7,3 +7,10 @@
   entry: check-utf8-with-unix-style-new-lines
   language: python
   types: [text]
+
+- id: check-file-has-some-contents
+  name: Check if files have some contents
+  description: Prevent empty files being committed
+  entry: check-file-has-some-contents
+  language: python
+  types: [text]
