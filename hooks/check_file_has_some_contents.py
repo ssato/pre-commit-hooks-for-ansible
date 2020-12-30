@@ -21,7 +21,7 @@ def check(filepaths: typing.Sequence[str]) -> typing.Iterator[int]:
             print(f'{filepath}: Looks empty')
             yield 1
 
-        if fpath.suffix in ('.yml', '.yaml'):
+        elif fpath.suffix in ('.yml', '.yaml'):
             try:
                 if not bool(yaml.safe_load(fpath.open())):
                     print(f'{filepath}: Looks a YAML file but has empty data')
