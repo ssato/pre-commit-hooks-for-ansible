@@ -14,3 +14,10 @@
   entry: check-file-has-some-contents
   language: python
   types: [text]
+
+- id: check-file-exists
+  name: Check if file exists
+  description: Ensure necessary files exist
+  entry: check-file-exists
+  language: python
+  types: [text]
