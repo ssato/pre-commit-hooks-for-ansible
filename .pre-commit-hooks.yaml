@@ -20,4 +20,7 @@
   description: Ensure necessary files exist
   entry: check-file-exists
   language: python
-  types: [text]
+  pass_filenames: false
+  # args:
+  #   - /path/to/file_to_check_0
+  #   - /path/to/file_to_check_1
