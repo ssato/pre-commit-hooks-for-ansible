@@ -3,8 +3,8 @@
 # Based on https://github.com/Azure-Samples/azure-pipelines-python/blob/master/.azure-pipelines/simple_package.1-multi-target.yml
 # another ref. https://github.com/tox-dev/azure-pipelines-template
 variables:
-  package: pre-commit-hooks-for-ansible
-  srcDirectory: hooks/
+  package: pre_commit_hooks_for_ansible
+  srcDirectory: src/
   testsDirectory: tests/$(package)
 
 trigger:
