@@ -6,7 +6,7 @@
 """
 import typing
 
-import hooks.check_utf8_with_unix_style_new_lines as TT
+import pre_commit_hooks_for_ansible.check_utf8_with_unix_style_new_lines as TT
 
 from tests import common as C
 

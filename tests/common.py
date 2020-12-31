@@ -11,7 +11,7 @@ import unittest
 
 
 CURDIR = pathlib.Path(__file__).resolve().parent
-HOOKS_DIR = CURDIR.parent / 'hooks'
+HOOKS_DIR = CURDIR.parent / 'src' / 'pre_commit_hooks_for_ansible'
 
 
 def list_res_files(name: str, pattern: str) -> typing.Iterable[str]:
